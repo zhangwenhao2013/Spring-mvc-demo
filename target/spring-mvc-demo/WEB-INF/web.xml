@@ -3,9 +3,29 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <!--使用web-app_2_4.xsd版本 2_3标准 页面默认将el表达式关闭-->
+    <!-- 也可以用这个 开启 <%@ page isELIgnored="false" %>-->
+
     <display-name>Archetype Created Web Application</display-name>
 
 
+    <!--
+    Spring 容器 ApplicationContext
+
+    Spring 应用的上下文 层次化的ApplicationContext  区别于DispatcherServlet
+    这个ApplicationContext整个项目共享,为项目提供公共组件,服务,如 service ,dao等;
+    这个ApplicationContext 被ContextLoaderListener所加载
+    -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/configs/spring/applicationContext*.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!--DispatcherServlet,Spring MVC 的核心  ,DispatcherServlet 可以有多个-->
     <servlet>
         <servlet-name>mvc-dispather</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -20,7 +40,7 @@
 
     <servlet-mapping>
         <servlet-name>mvc-dispather</servlet-name>
-        <!--despather 拦截所有的请求-->
+        <!--despather 拦截所有的请求; 这里是更加不同的 url-pattern 分发到不同的dispatcherServlet-->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>

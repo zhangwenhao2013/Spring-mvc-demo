@@ -91,6 +91,36 @@
   <img  src="mkimages/spring-mvc-1.png" height="330" width="400">
   <img  src="mkimages/spring-mvc-2.png" height="330" width="500">
   </div>
+  
+  
+ ###  Spring mvc 配置信息
+ 
+  1: 使用web-app_2_4.xsd版本 2_3标准 页面默认将el表达式关闭
+  
+  ```$xslt
+  如果配置了 2.4标准就不需要在jsp 中手动开启
+ <%@ page isELIgnored="false" %>
+```
+
+  2: 层次化的ApplicationContext
+    ContextLoaderListener 加载 Spring 容器ApplicationContext, 扫描项目中的@Component, @Service 等
+    DispatcherServlet 加载管理 @Controller
+    
+    
+  3:Controller
+    请求 由DispatcherServlet 分发给 Controller类;Controller根据业务需求,返回(可以是Json ,可以是 ModelAndView)  
+      
+      1:获取请求参数 :
+                1:针对/courses/view?courseId=111的这种参数获取 , 使用 @RequestParam("参数字段") Integer courseId;
+                2:针对/courses/view2/courseId , 使用@PathVariable("courseId") Integer courseId ;
+                
+                
+      2:将数据添加到Model , SpringMVC 中数据有三种形式
+                1:model.addAttribute(object)
+                
+      3:更加DispatcherServlet 中配置的 ViewResolver 返回
+      
+      
 
  
 
