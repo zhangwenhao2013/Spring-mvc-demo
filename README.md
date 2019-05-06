@@ -131,7 +131,7 @@
         可以使用 redirect:xxx 实现重定向
                 forward: xxx 实现请求转发
                 
-  5: annotation 总结
+  5: annotation 总结 
   
         @Controller @RequestMapping 
         @RequestParam @PathVariable
