@@ -2,14 +2,19 @@ package com.conan.mvcdemo.controller;
 
 import com.conan.mvcdemo.model.Course;
 import com.conan.mvcdemo.services.CourseService;
+import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Map;
 
 @Controller
@@ -91,6 +96,20 @@ public class CourseController {
     public String doSave(@ModelAttribute Course course) {
         course.setCourseId(122);
         return "redirect:view2/" + course.getCourseId();
+    }
+
+    @RequestMapping(value = "/upload", method = RequestMethod.GET)
+    public String showUploadPage() {
+        return "course_admin/file";
+    }
+
+    @RequestMapping(value = "/doUpload", method = RequestMethod.POST)
+    public String doUploadFile(@RequestParam("file") MultipartFile file) throws IOException {
+
+        if (!file.isEmpty()) {
+            FileUtils.copyInputStreamToFile(file.getInputStream(), new File("/Users/zhangwenhao", System.currentTimeMillis() + file.getOriginalFilename()));
+        }
+        return "success";
     }
 
 }

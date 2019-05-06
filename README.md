@@ -138,4 +138,16 @@
         @ModelAttribute
                       
                 
-      
+ ###  Spring mvc 文件上传
+    
+    1:Post请求 ; 需要配置 enctype="multipart/form-data"    
+    2:引入 commons-fileupload 依赖
+    3:并给DispatcherServlet配置CommonsMultipartResolver,注意需要设置id="multipartResolver" 
+    设置原理给DispatcherServlet multipartResolver 提供初始化参数;
+    4:服务器使用@RequestParams("file对应的字段")标记 MultipartFile 字段参数;
+    5:使用Commands-io 中的工具方法 保存文件;
+    
+    
+  ###  Spring mvc Json
+  
+    
