@@ -7,10 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
@@ -67,6 +64,33 @@ public class CourseController {
         log.debug("xxxxxx", courseId);
         httpServletRequest.setAttribute("course", course);
         return "course_overview";
+    }
+
+    /**
+     * 直接打开一个节目
+     *
+     * @return
+     */
+    @RequestMapping(value = "/admin", method = RequestMethod.GET, params = "add")
+    public String createCourse() {
+        return "course_admin/edit";
+    }
+
+    /**
+     * 保存之后 查询课程
+     *
+     * @param course
+     * @return
+     */
+   /* @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public String doSave1(Course course) {
+        course.setCourseId(122);
+        return "redirect:view2/" + course.getCourseId();
+    }*/
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public String doSave(@ModelAttribute Course course) {
+        course.setCourseId(122);
+        return "redirect:view2/" + course.getCourseId();
     }
 
 }

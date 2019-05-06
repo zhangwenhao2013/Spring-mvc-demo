@@ -125,4 +125,17 @@
 
  
 
-
+  4: Binding 
+        
+        可以使用 @ModelAttribute 实现模型和JSP页面模型数据绑定
+        可以使用 redirect:xxx 实现重定向
+                forward: xxx 实现请求转发
+                
+  5: annotation 总结
+  
+        @Controller @RequestMapping 
+        @RequestParam @PathVariable
+        @ModelAttribute
+                      
+                
+      
