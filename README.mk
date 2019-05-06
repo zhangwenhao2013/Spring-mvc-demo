@@ -1,18 +1,18 @@
 
-# Spring MVC
+ # Spring MVC
 
-### 使用Maven 创建使用Maven 管理的 java web 项目
+ ### 使用Maven 创建使用Maven 管理的 java web 项目
 
  ```
  mvn archetype:generate -DgroupId=itanken-arthur -DartifactId=spring-mvc-study -DarchetypeArtifactId=maven-archetype-webapp
  ```
  也可以创建Maven项目选择archetype-webapp;
 
-### <properties>
+ ### <properties>
 
  使用 <properties> 可以统一管理版本信息
 
-### <dependencyManagement> 管理依赖版本
+ ### <dependencyManagement> 管理依赖版本
 
  ```
         <dependencyManagement>
@@ -33,7 +33,7 @@
 
  ```
 
-### 配置Tomcat运行环境
+ ### 配置Tomcat运行环境
 
  ```
   <!--如果是Tomcat启动 则需要下面三个依赖 -->
@@ -61,7 +61,7 @@
 
  ```
 
-### 配置Jetty 插件. 通过 mvn jetty:run 部署
+ ### 配置Jetty 插件. 通过 mvn jetty:run 部署
 
  ```
   <plugins>
@@ -85,9 +85,9 @@
 
  ```
  
-### Spring mvc 基本概念
+ ### Spring mvc 基本概念
   <div align="center">
- <img  src="mkimages/spring-mvc-1.png" height="330" width="400">
+  <img  src="mkimages/spring-mvc-1.png" height="330" width="400">
   <img  src="mkimages/spring-mvc-2.png" height="330" width="500">
   </div>
 
