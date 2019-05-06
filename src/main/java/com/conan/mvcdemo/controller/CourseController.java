@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 @Controller
@@ -56,6 +57,15 @@ public class CourseController {
         Course course = courseService.getCoursebyId(courseId);
         log.debug("xxxxxx", courseId);
         map.put("course", course);
+        return "course_overview";
+    }
+
+    @RequestMapping(value = "/view3", method = RequestMethod.GET)
+    public String viewCourse2(HttpServletRequest httpServletRequest) {
+        Integer courseId = Integer.valueOf(httpServletRequest.getParameter("courseId"));
+        Course course = courseService.getCoursebyId(courseId);
+        log.debug("xxxxxx", courseId);
+        httpServletRequest.setAttribute("course", course);
         return "course_overview";
     }
 

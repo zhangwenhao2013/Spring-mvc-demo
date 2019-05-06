@@ -107,7 +107,7 @@
     DispatcherServlet 加载管理 @Controller
     
     
-  3:Controller
+  3:Controller : @Controller  @RequestMapping(一般作用在类和方法上)
     请求 由DispatcherServlet 分发给 Controller类;Controller根据业务需求,返回(可以是Json ,可以是 ModelAndView)  
       
       1:获取请求参数 :
@@ -117,6 +117,7 @@
                 
       2:将数据添加到Model , SpringMVC 中数据有三种形式
                 1:model.addAttribute(object)
+                2:Map<String,Object>
                 
       3:更加DispatcherServlet 中配置的 ViewResolver 返回
       
