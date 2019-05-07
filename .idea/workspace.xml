@@ -7,13 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4946fb9-c345-49d4-bc52-b2b9e40732ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/base/Restful.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/TestFilterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/loginsuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo/WEB-INF/configs/spring/mvc-dispather-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo/WEB-INF/configs/spring/mvc-dispather-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-demo/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-demo/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,50 +51,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="9" />
+          <entry key="class" value="11" />
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="37" />
+          <entry key="java" value="46" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="7" />
-          <entry key="md" value="2" />
+          <entry key="jsp" value="13" />
+          <entry key="md" value="4" />
           <entry key="mk" value="2" />
           <entry key="pom" value="3" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="20" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="9" />
+          <entry key="CLASS" value="11" />
           <entry key="CSS" value="2" />
           <entry key="Git file" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="37" />
-          <entry key="JSP" value="7" />
+          <entry key="JAVA" value="46" />
+          <entry key="JSP" value="13" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="21" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1407" />
-          <entry key="jsp" value="27" />
-          <entry key="md" value="1194" />
+          <entry key="java" value="1631" />
+          <entry key="jsp" value="102" />
+          <entry key="md" value="2149" />
           <entry key="mk" value="363" />
-          <entry key="xml" value="1915" />
+          <entry key="xml" value="1982" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1407" />
-          <entry key="JSP" value="27" />
-          <entry key="Markdown" value="1194" />
+          <entry key="JAVA" value="1631" />
+          <entry key="JSP" value="102" />
+          <entry key="Markdown" value="2149" />
           <entry key="PLAIN_TEXT" value="363" />
-          <entry key="XML" value="1915" />
+          <entry key="XML" value="1982" />
         </counts>
       </usages-collector>
     </session>
@@ -103,10 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="116" column="38" lean-forward="true" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+            <state relative-caret-position="279">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -115,8 +117,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="388">
-                <caret line="152" column="45" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
+              <first_editor relative-caret-position="354">
+                <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,134 +128,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+            <state relative-caret-position="150">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/TestFilterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/CourseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4781#4789#0" expanded="true" />
-                <element signature="e#5262#5270#0" expanded="true" />
-                <element signature="e#5711#5726#0" expanded="true" />
-                <element signature="e#6184#6199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1503#1504#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1575#1576#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-                <element signature="e#1797#1798#0" expanded="true" />
-                <element signature="e#1839#1840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="83" column="44" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/base/Restful.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/loginsuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ResponseBody.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/success.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_overview.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="257">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_admin/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -264,9 +210,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -274,9 +220,10 @@
     <findStrings>
       <find>annotation-config</find>
       <find>contextConfigLocation</find>
-      <find>multipartResolver</find>
       <find>InternalResourceViewResolver</find>
       <find>ViewResolver</find>
+      <find>multipartResolver</find>
+      <find>viewResolvers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,13 +242,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/Chapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/services/CourseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/services/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_admin/file.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/base/RestfulList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/base/Restful.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/loginsuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/TestFilterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -339,7 +290,7 @@
     <option name="x" value="-1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -388,7 +339,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mvcdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +349,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mvcdemo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -490,7 +440,52 @@
             </path>
             <path>
               <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-mvc-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-mvc-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -515,10 +510,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Characf&#9;PSI&#9;JAVA://org.springframework.web.filter.CharacterEncodingFilter&#10;DispatcherServlet&#9;FILE&#9;jar:///Users/zhangwenhao/.m2/repository/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557190856265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557198745352" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -549,7 +545,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/springmvcdemo/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="spring-mvc-demo:war">
@@ -634,12 +630,12 @@
       <updated>1557102702998</updated>
       <workItem from="1557102706365" duration="1115000" />
       <workItem from="1557103835081" duration="5871000" />
-      <workItem from="1557110630522" duration="18338000" />
+      <workItem from="1557110630522" duration="24492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25324000" />
+    <option name="totallyTimeSpent" value="31478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,7 +647,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="-1920" y="23" width="1920" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49646643" visible="true" weight="0.22790202" />
@@ -665,12 +661,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915073" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.42485875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32908705" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43949044" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38428876" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32908705" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -680,7 +676,7 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24953617" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Flutter Inspector" order="4" weight="0.32931355" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -772,6 +768,12 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/TestFilterController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -780,105 +782,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_overview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE.jar!/org/springframework/stereotype/Component.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE.jar!/org/springframework/stereotype/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/HelloMvcController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/imgs/course-img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-1.11.3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/services/impl/CourseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -888,12 +791,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_admin/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/success.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/OutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1009,31 +906,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3646">
-          <caret line="311" column="28" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_admin/file.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="116" column="38" lean-forward="true" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1083,13 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1200,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+        <state relative-caret-position="402">
+          <caret line="143" column="5" selection-start-line="120" selection-start-column="4" selection-end-line="143" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4781#4789#0" expanded="true" />
@@ -1212,11 +1081,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.3.RELEASE/spring-beans-4.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactoryUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.3.RELEASE/spring-beans-4.1.3.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="480" column="66" lean-forward="true" selection-start-line="480" selection-start-column="66" selection-end-line="480" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="66" column="70" lean-forward="true" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/configs/spring/mvc-dispather-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/home.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_overview.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/course_admin/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/login/loginsuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/mvcdemo/controller/TestFilterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="388">
-            <caret line="152" column="45" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
+          <first_editor relative-caret-position="354">
+            <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

@@ -229,4 +229,18 @@
                 
     
   
-    
+ # Spring filter and intercepter
+ 
+   ### Spring filter 
+        
+        1:Spring 提供了莫非的Filter,CharacterEncodingFilter 
+        2:web.xml 中配置filter ,并配置init-param ;根据CharacterEncodingFilter 源码查看对应的param-name
+        3: intellij IDEA 配合 tomcat 控制台打印中文出现?? 问题;在配置项VM options文本框中输入-Dfile.encoding=UTF-8
+        https://blog.csdn.net/liu865033503/article/details/81094575
+        
+   ### Sping intercepter  
+   
+        实现SpringMVC intercepter 的两种方式;
+        1:
+        
+       
