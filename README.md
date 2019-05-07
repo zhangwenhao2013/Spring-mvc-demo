@@ -307,7 +307,7 @@
     
     
    <div align="center">
-      <img  src="mkimages/spring-mvc-Intercept.png" height="330" width="400">
+      <img  src="mkimages/spring-mvc-Intercept.png" height="500" width="500">
     </div>
         
         
