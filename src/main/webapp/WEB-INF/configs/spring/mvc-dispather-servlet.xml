@@ -31,6 +31,8 @@
 
          这里的映射关系应该是自动AOP自动关联到 List<ViewResolver> viewResolvers
           -->
+
+    <!--内部资源的 viewResolver-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
@@ -44,6 +46,28 @@
         <property name="defaultEncoding" value="UTF-8"/>
         <property name="maxUploadSize" value="209715200"/>
         <property name="resolveLazily" value="true"/>
+    </bean>
+
+    <!---->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+
+        <property name="order" value="1"/>
+        <property name="mediaTypes">
+            <map>
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+                <entry key="htm" value="text/htm"/>
+            </map>
+        </property>
+
+        <property name="defaultViews" >
+            <list>
+                <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"/>
+            </list>
+        </property>
+
+        <property name="ignoreAcceptHeader" value="true"/>
+
     </bean>
 
 </beans>

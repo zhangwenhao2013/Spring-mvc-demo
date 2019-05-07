@@ -149,5 +149,65 @@
     
     
   ###  Spring mvc Json
+    
+    0:需要引入jackson-databind依赖
+    1:配置DispatcherServlet,添加ContextNegotiatingViewResolver,其中配置default MappingJackson2JsonView,配置mediatype等
+    2:Controller中 两种方法处理
+        1: 返回参数类型前 使用 @ResponseBody 标注返回参数;
+        2: 使用ResponseEntity类的实例装饰要放回的对象的实例;
+        
+ ```
+ 
+  <!---->
+     <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+ 
+         <property name="order" value="1"/>
+         <property name="mediaTypes">
+             <map>
+                 <entry key="json" value="application/json"/>
+                 <entry key="xml" value="application/xml"/>
+                 <entry key="htm" value="text/htm"/>
+             </map>
+         </property>
+ 
+         <property name="defaultViews" >
+             <list>
+                 <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"/>
+             </list>
+         </property>
+ 
+         <property name="ignoreAcceptHeader" value="true"/>
+ 
+     </bean>
+ 
+ 
+ /**
+      * 使用 @ResponseBody 注解标注返回类型 可以直接放对象转为Json
+      *
+      * @param courseId
+      * @return
+      */
+     @RequestMapping(value = "/json/{courseId}", method = RequestMethod.GET)
+     public @ResponseBody
+     Course getJson(@PathVariable("courseId") Integer courseId) {
+         Course course = courseService.getCoursebyId(courseId);
+         return course;
+     }
+ 
+     /**
+      * 使用  ResponseEntity对象实例包装要返回对象的实例 可以直接放对象转为Json
+      *
+      * @param courseId
+      * @return
+      */
+     @RequestMapping(value = "/json1/{courseId}", method = RequestMethod.GET)
+     public ResponseEntity<Course> getJson1(@PathVariable("courseId") Integer courseId) {
+         Course course = courseService.getCoursebyId(courseId);
+         return new ResponseEntity<Course>(course, HttpStatus.OK);
+     }
+
+
+```   
+    
   
     
