@@ -3,7 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/tool
+         http://www.springframework.org/schema/tool/spring-tool.xsd
+         http://www.springframework.org/schema/mvc
+         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--激活 @Required  @Autowired,jSR250's @PostConstruct ,@PreDestroy and @Resource等注解-->
     <!--启动Spring 基于Annotation的DI ,使用户可以在Spring MVC中使用 Spring 的强大功能-->
@@ -60,7 +67,7 @@
             </map>
         </property>
 
-        <property name="defaultViews" >
+        <property name="defaultViews">
             <list>
                 <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"/>
             </list>
@@ -69,5 +76,21 @@
         <property name="ignoreAcceptHeader" value="true"/>
 
     </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--拦截所有请求  这个放在最前面-->
+            <mvc:mapping path="/**"/>
+            <!--不拦截什么内容  -->
+            <!--<mvc:exclude-mapping path=""/>-->
+            <bean class="com.conan.mvcdemo.intercepter.Intercepter1">
+                <property name="encoding" value="utf-8"/>
+            </bean>
+
+        </mvc:interceptor>
+
+        <bean class="com.conan.mvcdemo.intercepter.Intercepter2"/>
+
+    </mvc:interceptors>
 
 </beans>

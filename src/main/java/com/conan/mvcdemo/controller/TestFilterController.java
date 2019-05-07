@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class TestFilterController {
 
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    @RequestMapping(value = "/login")
     public String login() {
         return "login/login";
     }

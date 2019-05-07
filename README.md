@@ -262,6 +262,54 @@
    ### Sping intercepter  
    
         实现SpringMVC intercepter 的两种方式;
-        1:
+        1:实现HandlerInterceptor 接口
+        2:实现WebRequestInterceptor 接口 ,没有返回参数的preHandle方法,不能终止请求;
+        3:两种实现拦截器的方式 都需要想SpringMVC 容器注册;
+        
+   ```
+/**
+     * 最先执行 NO.1
+     * <p>
+     * 这个方法中判断是否拦截  返回true 说明不拦截  返回false 拦截,请求终止
+
+     * @param handler  handler 可以获取到 Controller的实例
+     */
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        System.out.println("preHandle   :  " + handler.toString());
+        System.out.println("preHandle 1  :  " + handler);
+        if (!StringUtils.isEmpty(encoding)) {
+            request.setCharacterEncoding(encoding);
+            response.setCharacterEncoding(encoding);
+        }
+        return true;
+    }
+
+    /**
+     * NO.2  执行到这一步 请求已经到达Controller 并要返回给请求端
+     * @param modelAndView Controller 返回的modelAndView ,通过操作modelAndView 可以修改数据和视图;
+     */
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+
+    }
+
+    /**
+     * NO.3 执行到这一步 请求已经响应完成后, 用来最终释放资源;
+     */
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        System.out.println("afterCompletion1   :  " + handler.toString());
+    }
+```     
+
+    多拦截器的情况
+    
+    1: 多拦截器执行的顺序按照 xml.中配置的顺序执行.
+    2: 执行顺序可以理解为 收费站的例子.
+    
+    
+   <div align="center">
+      <img  src="mkimages/spring-mvc-Intercept.png" height="330" width="400">
+    </div>
+        
+        
         
        
