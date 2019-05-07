@@ -208,6 +208,25 @@
 
 
 ```   
+
+  ### DispatcherServlet 配置的原理
+  
+    1:在web.xml中配置了,DispatcherServlet初始化时传入一个ApplicationContext;
+    2:被传入的ApplicationContext 是一个容器,注入了很多的Bean实例;
+    3:给DispatcherServlet 使用的 Application容器只扫描被@Controller注解的类;
+    4:其中 注入 ViewResolver 和 Resolver 的原理:  
+      
+        ViewResolver: DispatcherServlet 会执行 initViewResolvers(context); 
+                      其中会得到一个Map集合,这个map 集合就是ViewResolver的集合,
+                      这个Map 是 ApplicationContext 容器提供的一个特性;
+                      容器会把同类型的参数,整合为一个集合,或者数组; 所以ViewResolver不需要使用id;
+        
+        Resolver: 这里以文件上传的multipartResolver 为例;
+                DispatcherServlet 会执行 initMultipartResolver(context); 
+                其中就是使用ApplicationContext 容器获取 名称为"multipartResolver"的实例;
+                这个名称就是id,所以这个id写错,或者不写就会报错;
+                public static final String MULTIPART_RESOLVER_BEAN_NAME = "multipartResolver";
+                
     
   
     
