@@ -238,6 +238,27 @@
         3: intellij IDEA 配合 tomcat 控制台打印中文出现?? 问题;在配置项VM options文本框中输入-Dfile.encoding=UTF-8
         https://blog.csdn.net/liu865033503/article/details/81094575
         
+        
+   ```$xslt
+ <filter>
+        <filter-name>encodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>encodingFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+```     
+        
    ### Sping intercepter  
    
         实现SpringMVC intercepter 的两种方式;
