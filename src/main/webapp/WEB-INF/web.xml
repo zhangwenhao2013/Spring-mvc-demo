@@ -34,6 +34,10 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/configs/spring/mvc-dispather-servlet.xml</param-value>
         </init-param>
+        <init-param>
+            <param-name>spring.profiles.default</param-name>
+            <param-value>dev</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
